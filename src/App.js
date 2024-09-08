@@ -216,7 +216,6 @@ const tokenFaucetABI = [
 const contractAddress = '0x5e139a17d501F278e7B5C1913d5841cDa9F8788e';
 
 const TokenFaucetRequest = () => {
-  const [userAddress, setUserAddress] = useState('');
   const [message, setMessage] = useState('');
 
   const requestTokens = async () => {
