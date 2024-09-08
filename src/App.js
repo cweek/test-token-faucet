@@ -240,7 +240,7 @@ const TokenFaucetRequest = () => {
       
       // Wait for transaction to be confirmed
       await tx.wait();
-      setMessage('Tokens successfully requested!');
+      setMessage('0.05 CHEWTT successfully requested!');
     } catch (error) {
       console.error('Error requesting tokens:', error);
       setMessage(`Error: ${error.reason}`);
